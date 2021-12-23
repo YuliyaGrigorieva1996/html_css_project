@@ -1,0 +1,85 @@
+  @media all and (max-width: 1142px) {
+    .excursion-main-offer {
+        width: 322px;
+        img {
+            width: 322px;
+        }
+    }
+    .excursion-image {
+        h1{
+            margin-left: 32px;
+            margin-right: 32px;
+        }
+    }
+    .form-button-with-checkbox {
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+    .footer {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .excursion-main-text {
+        margin-left: 32px;
+    }
+}
+@media all and (max-width: 940px) {
+    .header-phone {
+        display: none;
+    }
+    .header-email {
+        display: none;
+    }
+    .footer-adres {
+        display: none;
+    }
+    .form-request-various {
+        grid-template: repeat(8, auto) / repeat(4, auto);
+    }
+    .name {
+        grid-area: 1/1/2/5;
+        width: 672px;
+        align-self: center;
+    }
+    .telephon {
+        grid-area: 2/1/3/5;
+        width: 672px;
+    }
+    .email {
+        grid-area: 3/1/4/5;
+        width: 672px;
+        align-self: center;
+    }
+    .area {
+        grid-area: 4/1/5/5;
+        width: 672px;
+        align-self: center;
+    }
+    .number-adult {
+        grid-area: 5/1/6/3;
+        width: 320px;
+    }
+    .number-children {
+        grid-area: 5/3/6/5;
+        width: 320px;
+    }
+    .date-arival {
+        grid-area: 6/1/7/2;
+        width: 144px;
+    }
+    .date-leaving {
+        grid-area: 7/1/8/2;
+        width: 144px;
+    }
+    .comment {
+        grid-area: 6/2/8/5;
+        width: 496px;
+    }
+    .form-button {
+        grid-area: 8/1/9/3;
+    }
+    .permision {
+        grid-area: 8/3/9/5;
+        width: 188px;
+    }
+}

@@ -1,0 +1,130 @@
+@import 'classes-variable';
+.header-image {
+    background-image: url("../images/Главный-экран\ 2.png");
+    height: 940px;
+    background-repeat: no-repeat;
+}
+.logo {
+    display: inline-flex;
+    align-items: center;
+    p {
+        color: $white;
+    }
+}
+.logo-image {
+    margin-top: 12px;
+}
+.logo-image-blue {
+    transform: translate(-35px, 10px);
+}
+.logo-text {
+    margin-left: -20px;
+}
+.agency {
+    font-size: 18px;
+}
+.baikal {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+} 
+.linkph {
+    text-decoration: none;
+    @extend %fontbold;
+}
+.link--phone::before {
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 1em;
+    height: 1em;
+    background-image: url("../images/phone.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.linkml {
+    text-decoration: none;
+    @extend %fontbold;
+}
+.link--mail::before {
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 1em;
+    height: 1em;
+    background-image: url("../images/mail.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.phone {
+    @extend %button;
+}
+.phone:hover {
+    @extend %button-hover;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: calc(50% - 560px);
+    margin-right: calc(50% - 560px);
+}
+.header-line {
+    background-color: $gray;
+    opacity: 0.3;
+    height: 1px;
+}
+.menu {
+    margin-left: $margin-left;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+    margin-top: 20px;
+    span {
+        @extend %fontnormal;
+    }
+    span:hover {
+        cursor: pointer;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+.submenu {
+    background-color: $white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    min-width: 200px;
+    top: 25px;
+    left: -15px;
+    ol {
+        list-style-type: none;
+        padding-left: 14px;
+    }
+    a {
+        color: $blue-for-button;
+    }
+    a:hover {
+        color: $hover-link;
+    }
+    li {
+        margin-top: 5px;
+    }
+}
+.menu-content:hover .submenu {
+    display: block;
+}
+.menu-content {
+    position: relative;
+    display: block;
+    height: 30px;
+}
+.header-menu {
+    display: none;
+}

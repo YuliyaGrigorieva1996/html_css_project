@@ -1,0 +1,403 @@
+@media all and (max-width: 1136px) {
+    .tours {
+        grid-template: repeat(4, auto) / repeat(3, auto);
+    }
+    .offer-winter-bay {
+        width: 232px;
+    }
+    .offer-winter-island {
+        width: 232px;
+    }
+    .offer-excursion-dacan {
+        width: 494px;
+    } 
+    .offer-excursion-ulan {
+        width: 232px;
+    }
+    .offer-eco-hotel {
+        width: 232px;
+    }
+    .offer-summer-bay {
+        width: 232px;
+    }
+    .offer-hotel-carriage {
+        width: 232px;
+    }
+    .offer-one-day {
+        width: 232px;
+    }
+    .offer-park-hotel-morin {
+        width: 232px;
+    }
+    .offer-summer-island {
+        width: 232px;
+    }
+    .offer-park-hotel-riviera {
+        width: 232px;
+    }
+    .offer-winter-fairytail {
+        width: 232px;
+    }
+    .more {
+        width: 232px; 
+    }
+    .offer-gradient {
+        width: 232px;
+    }  
+    .offer-gradient-dacan {
+        width: 494px;
+    }
+    .header {
+        margin: 32px;
+    }
+    .description {
+        margin-left: 32px;
+    }
+    .offers {
+        margin-left: 32px;
+    }
+    .line-under-offers {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .about-content {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .progress {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .form-button-with-checkbox {
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+    .footer {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .main {
+        p {
+            width: 232px;
+        }
+    }
+    .menu {
+        margin-left: 32px;
+    } 
+    .progress-surface {
+        width: 180px;
+    }
+}
+@media all and (max-width: 1072px) {
+    .tours {
+        grid-template: repeat(6, auto) / repeat(2, auto);
+
+    }
+    .main {
+        grid-template: repeat(4, auto) / repeat(2, auto);
+    }
+    .offers-position {
+        grid-template: repeat(7, auto) / repeat(2, auto);
+    }
+    .offer-winter-bay {
+        grid-area: 1/1/2/2;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Зимний\ однодневный\ тур\ на\ Чивыркуйский\ залив\ 1\ 720.png");
+    }
+    .offer-winter-island {
+        grid-area: 1/2/2/3;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Зимний\ однодневный\ тур\ на\ остров\ Ольхон\ 2\ 720.png");
+    }
+    .offer-excursion-dacan {
+        background-image: url("../images/Экскурсия\ в\ Иволгинский\ дацан\ 1\ 720.png");
+        grid-area: 3/1/4/3;
+        width: 671px;
+        height: 671px;
+    }
+    .offer-excursion-ulan {
+        grid-area: 2/1/3/2;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Обзорная\ экскурсия\ по\ Улан-Удэ\ 1\ 720.png");
+    }
+    .offer-eco-hotel {
+        grid-area: 2/2/3/3;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Эко-отель\ «Байкальское\ шале»\ 1\ 720.png");
+    }
+    .offer-summer-bay {
+        grid-area: 4/1/5/2;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Летний\ однодневный\ тур\ в\ Чивыркуйский\ залив\ 1\ 720.png");
+    }
+    .offer-hotel-carriage {
+        grid-area: 4/2/5/3;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Отель\ «Белая\ Карета»\,\ с\ 1\ 720.png");
+    }
+    .offer-summer-island {
+        grid-area: 5/1/6/2;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Зимний\ однодневный\ тур\ на\ остров\ Ольхон\ 2\ 720.png");
+    }
+    .offer-park-hotel-riviera {
+        grid-area: 5/2/6/3;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Парк-отель\ «Байкальская\ Ривьера»\ 720.png");
+    }
+    .offer-one-day {
+        grid-area: 6/1/7/2;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Однодневная\ поездка\ на\ Байкал\ «Байкальская\ Гавань»\ 1\ 720.png");
+    }
+    .offer-park-hotel-morin {
+        grid-area: 6/2/7/3;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Парк-отель\ «Сагаан-Морин»\,\ с\ 1\ 720.png");
+    }
+    .offer-winter-fairytail {
+        grid-area: 7/1/8/2;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Зимний\ тур\ «Чивыркуйская\ сказка»\ 720.png");
+    }
+    .more {
+        grid-area: 7/2/8/3;
+        width: 320px;
+        height: 320px;
+        background-image: url("../images/Фотогалерея5\ 720.png");
+    }
+    .offer-gradient {
+        width: 320px;
+        height: 320px;
+    }
+    .offer-gradient-dacan {
+        width: 671px;
+        height: 671px;
+    }
+    .offers {
+        h2 {
+            margin-left: 32px;
+        }
+    }
+    .progress-surface {
+        width: 279px;
+    }
+}
+@media all and (max-width: 862px) {
+    .header-email {
+        display: none;
+    }
+    .header-phone {
+        display: none;
+    }
+    .progress {
+        span {
+            font-size: 44px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .form-request-various {
+        grid-template: repeat(8, auto) / repeat(4, auto);
+    }
+    .name {
+        grid-area: 1/1/2/5;
+        width: 672px;
+        align-self: center;
+    }
+    .telephon {
+        grid-area: 2/1/3/5;
+        width: 672px;
+    }
+    .email {
+        grid-area: 3/1/4/5;
+        width: 672px;
+        align-self: center;
+    }
+    .area {
+        grid-area: 4/1/5/5;
+        width: 672px;
+        align-self: center;
+    }
+    .number-adult {
+        grid-area: 5/1/6/3;
+        width: 320px;
+    }
+    .number-children {
+        grid-area: 5/3/6/5;
+        width: 320px;
+    }
+    .date-arival {
+        grid-area: 6/1/7/2;
+        width: 144px;
+    }
+    .date-leaving {
+        grid-area: 7/1/8/2;
+        width: 144px;
+    }
+    .comment {
+        grid-area: 6/2/8/5;
+        width: 496px;
+    }
+    .form-button {
+        grid-area: 8/1/9/3;
+    }
+    .permision {
+        grid-area: 8/3/9/5;
+        width: 188px;
+    }
+}
+@media all and (max-width: 736px) {
+    .description {
+        h1 {
+            font-size: 64px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .about-image {
+        display: none;
+    }
+    .about-text {
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 0px;
+    }
+    .footer-columns {
+        display: none;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer-adres {
+        display: none;
+    }
+    .progress {
+        display: grid;
+        grid-template: repeat(3, auto) / repeat(2, auto);
+    } 
+}
+@media all and (max-width: 720px) {
+    .offers-position {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .offer-excursion-dacan {
+        display: none;
+    }
+    .offer-one-day {
+        display: none;
+    }
+    .offer-park-hotel-morin {
+        display: none;
+    }
+    .offer-summer-island {
+        display: none;
+    }
+    .offer-park-hotel-riviera {
+        display: none;
+    }
+    .offer-winter-fairytail {
+        display: none;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media all and (max-width: 688px) {
+    .form-request-various {
+        grid-template: repeat(10, auto) / repeat(2, auto);
+        gap: 16px 16px;
+    }
+    .name {
+        grid-area: 1/1/2/3;
+        width: 288px;
+        height: 44px;
+    }
+    .telephon {
+        grid-area: 2/1/3/3;
+        width: 288px;
+        height: 44px;
+    }
+    .email {
+        grid-area: 3/1/4/3;
+        width: 288px;
+        height: 44px;
+    }
+    .area {
+        grid-area: 4/1/5/3;
+        width: 288px;
+        height: 44px;
+    }
+    .number-adult {
+        grid-area: 5/1/6/3;
+        width: 288px;
+        height: 44px;
+    }
+    .number-children {
+        grid-area: 6/1/7/3;
+        width: 288px;
+        height: 44px;
+    }
+    .date-arival {
+        grid-area: 7/1/8/2;
+        width: 136px;
+        height: 44px;
+    }
+    .date-leaving {
+        grid-area: 7/2/8/3;
+        width: 136px;
+        height: 44px;
+    }
+    .comment {
+        grid-area: 8/1/9/3;
+        width: 288px;
+        height: 180px;
+    }
+    .form-button {
+        width: 288px;
+        height: 50px;
+        font-size: 16px;
+        grid-area: 10/1/11/3;
+    }
+    .permision {
+        grid-area: 9/1/10/3;
+        justify-self: start;
+    }
+}
+@media all and (max-width: 562px) {
+    .menu {
+        display: none;
+    }
+    .tours {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone {
+        display: none;
+    }
+    .header-menu {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/bars-solid-white.svg);
+        background-repeat: no-repeat;
+    }
+}

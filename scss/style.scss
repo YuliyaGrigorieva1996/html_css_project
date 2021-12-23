@@ -1,0 +1,555 @@
+@import 'classes-variable';
+@import url(./adaptiv.css);
+@import url(./footer_index.css);
+@import url(./header_index.css);
+@mixin rMax ($width) {
+    @media all and (max-width: $width) {
+        display: none;
+    }
+} 
+.body {
+    margin: 0;
+}
+.description {
+    margin-left: $margin-left;
+    h1 {
+        font-size: 90px;
+        line-height: 117px;
+        color: $white;
+    }
+    p {
+        color: $white;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+.btn-tour {
+    @extend %button;
+    margin-top: 70px;
+}
+.btn-tour:hover {
+    @extend %button-hover;
+}
+.tours {
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(4, auto);
+    place-content: center;
+    gap: 32px 32px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    box-sizing: border-box;
+    a {
+        @extend %font-tours;
+        position: relative;
+        top: 13px;
+        right: 83px;
+        bottom: 16px;
+        left: 19px;
+    }
+    a:hover {
+        color: $hover-link;
+    }
+}
+.tourbase {
+    @extend %border-block;
+}
+.tourbase-img {
+    background-image: url("../images/Турбазы-на-Байкале.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.excursions {
+    @extend %border-block;
+}
+.excursions-img {
+    background-image: url("../images/Экскурсии-и-туры.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.hunt {
+    @extend %border-block;
+}
+.hunt-img {
+    background-image: url("../images/Охота-и-рыбалка.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.extrim {
+    @extend %border-block;
+}
+.extrim-img {
+    background-image: url("../images/Экстрим-туры.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.yacht {
+    @extend %border-block;
+}
+.yacht-img {
+    background-image: url("../images/Теплоходы\,-яхты.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.beauty {
+    @extend %border-block;
+}
+.beauty-img {
+    background-image: url("../images/Красоты-Байкала.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.hotels {
+    @extend %border-block;
+}
+.hotels-img {
+    background-image: url("../images/Гостиницы-в-Улан-Удэ.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.transport {
+    @extend %border-block;
+}
+.transport-img {
+    background-image: url("../images/Транспорт.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.tourism {
+    @extend %border-block;
+}
+.tourism-img {
+    background-image: url("../images/Деловой-туризм.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.cruise {
+    @extend %border-block;
+}
+.cruise-img {
+    background-image: url("../images/Круизы-по-Байкалу.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.winter {
+    @extend %border-block;
+}
+.winter-img {
+    background-image: url("../images/Зимние-туры.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.map {
+    @extend %border-block;
+}
+.map-img {
+    background-image: url("../images/О-Байкале.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    border-radius: $border-radius-img;
+}
+.directions {
+    background-color: $green;
+    h2 {
+        @extend %h2-font;
+        text-align: center;
+        padding-top: 40px;
+    }   
+}
+.main {
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(4, auto);
+    margin-top: 50px;
+    padding-bottom: 50px;
+    place-content: center;
+    gap: 32px 32px;
+    box-sizing: border-box;
+    p {
+        @extend %font-directions;
+        width: 256px;
+    }
+}
+.bluehalf {
+    position: relative;
+    right: 57px;
+    top: 17px;
+}
+.circle-small {
+    position: relative;
+    bottom: 15px;
+    left: 25px;
+}
+.body-half {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+.circle-big {
+    position: relative;
+    bottom: 20px;
+    left: 0px;
+}
+.body-to-circle {
+    position: relative;
+    bottom: 0px;
+    right: 27px;
+}
+.men {
+    position: relative;
+    bottom: 8px;
+    right: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.pointer {
+    position: relative;
+    right: 127.5px;
+    bottom: 5px;
+}
+.message {
+    position: relative;
+    right: 128.5px;
+}
+.earth {
+    position: relative;
+    right: 165.5px;
+    bottom: 15px;
+}
+.ship {
+    position: relative;
+    right: 133px; 
+    bottom: 10px;
+}
+.fishing {
+    position: relative;
+    right: 133px; 
+}
+.bus {
+    position: relative;
+    right: 128px;
+    bottom: 4px;
+}
+.suitcase {
+    position: relative;
+    right: 128px;
+    bottom: 10px;
+}
+.circle-to-body {
+    position: relative;
+    left: 30px;
+    bottom: 16px;
+}
+.reward {
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+.figure {
+    position: relative;
+    bottom: 12px;
+    right: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.offers {
+    h2 {
+        @extend %h2-font;
+        margin-left: $margin-left;
+    }
+    a {
+        @extend %fontbold;
+        position: relative;
+        z-index: 1;
+    }
+    span {
+        color: $white;
+        position: absolute;
+        z-index: 1;
+    }
+}
+.scale {
+    transition: 2s;
+}
+.scale:hover {
+    transform: scale(1.2);
+}
+.offer-winter-bay {
+    background-image: url("../images/Зимний\ однодневный\ тур\ на\ Чивыркуйский\ залив\ 1.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 1/1/2/2;
+}
+.offer-gradient {
+    background: linear-gradient(180deg, #000000 0%, #FFFFFF 48.44%, #FFFFFF 76.04%, #000000 100%);
+    width: 256px;
+    height: 256px;
+    mix-blend-mode: multiply;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.offer-winter-island {
+    background-image: url("../images/Зимний\ однодневный\ тур\ на\ остров\ Ольхон\ 2.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 1/2/2/3;
+}
+.offer-excursion-dacan {
+    background-image: url("../images/Экскурсия\ в\ Иволгинский\ дацан\ 1.png");
+    width: 544px;
+    height: 544px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 1/3/3/5;
+}
+.offer-excursion-ulan {
+    background-image: url("../images/Обзорная\ экскурсия\ по\ Улан-Удэ\ 1.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 2/1/3/2;
+}
+.offer-eco-hotel {
+    background-image: url("../images/Эко-отель\ «Байкальское\ шале»\ 1.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 2/2/3/3;
+}
+.offer-summer-bay {
+    background-image: url("../images/Летний\ однодневный\ тур\ в\ Чивыркуйский\ залив\ 1.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 3/1/4/2;
+}
+.offer-hotel-carriage {
+    background-image: url("../images/Отель\ «Белая\ Карета»\,\ с\ 1.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 3/2/4/3;
+}
+.offer-one-day {
+    background-image: url("../images/Однодневная\ поездка\ на\ Байкал\ «Байкальская\ Гавань»\ 1.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 3/3/4/4;
+}
+.offer-park-hotel-morin {
+    background-image: url("../images/Парк-отель\ «Сагаан-Морин»\,\ с\ 1.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 3/4/4/5;
+}
+.offer-summer-island {
+    background-image: url("../images/Зимний\ однодневный\ тур\ на\ остров\ Ольхон\ 2.png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 4/1/5/2;
+}
+.offer-park-hotel-riviera {
+    background-image: url("../images/Парк-отель\ «Байкальская\ Ривьера».png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 4/2/5/3;
+}
+.offer-winter-fairytail {
+    background-image: url("../images/Зимний\ тур\ «Чивыркуйская\ сказка».png");
+    width: 256px;
+    height: 256px;
+    padding: 16px 21px 19px 17px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 4/3/5/4;
+}
+.more {
+    background-image: url("../images/Фотогалерея5.png");
+    width: 256px;
+    height: 256px;
+    padding: 92px 30px 99px 30px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    grid-area: 4/4/5/5;
+}
+.offer-cost {
+    display: inline-block;
+    position: absolute;
+    bottom: 17px;
+    left: 21px;
+}
+.offer-gradient-dacan {
+    background: linear-gradient(180deg, #000000 0%, #FFFFFF 48.44%, #FFFFFF 76.04%, #000000 100%);
+    width: 544px;
+    height: 544px;
+    mix-blend-mode: multiply;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.offer-cost-dacan {
+    display: inline-block;
+    bottom: 17px;
+    left: 21px;
+}
+.offers-position {
+    display: grid;
+    grid-template: repeat(4, auto) / repeat(4, auto);
+    place-content: center;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+.line-under-offers {
+    height: 1px;
+    background-color: $gray;
+    @extend %margin-center;
+    margin-top: 80px;
+}
+.about {
+    h1 {
+        @extend %h1-font;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 70px;
+    }
+}
+.about-image-top {
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    background-image: url("../images/title1.png");
+    background-repeat: no-repeat;
+    height: 256px;
+    width: 256px;
+}
+.about-image-bottom {
+    position: absolute;
+    z-index: 2;
+    top: 171px;
+    left: 48px;
+    background-image: url("../images/title2.png");
+    background-repeat: no-repeat;
+    height: 338px;
+    width: 256px;
+    box-sizing: border-box;
+    border: 10px solid $white;
+}
+.about-text {
+    margin-left: 384px;
+    box-sizing: border-box; 
+    margin-top: -320px;
+    P{
+        font-size: 18px;
+        color: $black-main;
+        line-height: 25px;
+    }
+}
+.about-image {
+height: 318px;
+}
+.about-content {
+    @extend %margin-center;
+    position: relative;
+} 
+.progress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 85px;
+    @extend %margin-center;
+    span {
+        font-size: 58px;
+        font-weight: bold;
+        color: $elements-green;
+    }
+    p {
+        font-size: 20px;
+        color: $black-heading;
+        font-weight: 600;
+    }
+}
+.progress-surface {
+    width: 314px;
+}
+.arow-to-top {
+    position: fixed;
+    top: 750px;
+    right: 30px;
+    a {
+        text-decoration: none;
+        color: $elements-green;
+    }
+}
+
+
+
+
+
