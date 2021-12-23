@@ -254,17 +254,6 @@
         margin: 0;
     } 
 }
-@media all and (max-width: 820px) {
-    .footer-columns {
-        display: none;
-    }
-    .footer-line {
-        display: none;
-    }
-    .footer-adres {
-        display: none;
-    }
-}
 @media all and (max-width: 720px) {
     .excursion-main-offers {
         grid-template: none;
@@ -328,23 +317,12 @@
     grid-area: 9/1/10/3;
     justify-self: start;
     }
-    .footer-order {
-    display: none;
-    }
-    .header-top{
-        button {
-            display: none;
-        }
-    }
     .header-menu {
         display: block;
         width: 40px;
         height: 40px;
         background-image: url(../images/bars-solid.svg);
         background-repeat: no-repeat;
-    }
-    .menu {
-        display: none;
     }
     .form {
         h2 {

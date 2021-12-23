@@ -171,3 +171,6 @@
 .footer-adres {
     @include rMax(736px);
 }
+.footer-order {
+    @include rMax(720px)
+}

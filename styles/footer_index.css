@@ -206,4 +206,10 @@
   }
 }
 
+@media all and (max-width: 720px) {
+  .footer-order {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=footer_index.css.map */
