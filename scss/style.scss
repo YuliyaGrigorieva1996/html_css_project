@@ -2,11 +2,6 @@
 @import url(./adaptiv.css);
 @import url(./footer_index.css);
 @import url(./header_index.css);
-@mixin rMax ($width) {
-    @media all and (max-width: $width) {
-        display: none;
-    }
-} 
 .body {
     margin: 0;
 }
@@ -325,7 +320,9 @@
     box-sizing: border-box;
     border-radius: 6px;
     position: relative;
+    z-index: 5;
     grid-area: 1/3/3/5;
+    @include rMax(862px);
 }
 .offer-excursion-ulan {
     background-image: url("../images/Обзорная\ экскурсия\ по\ Улан-Удэ\ 1.png");
@@ -381,6 +378,7 @@
     border-radius: 6px;
     position: relative;
     grid-area: 3/3/4/4;
+    @include rMax(862px);
 }
 .offer-park-hotel-morin {
     background-image: url("../images/Парк-отель\ «Сагаан-Морин»\,\ с\ 1.png");
@@ -392,6 +390,7 @@
     border-radius: 6px;
     position: relative;
     grid-area: 3/4/4/5;
+    @include rMax(862px);
 }
 .offer-summer-island {
     background-image: url("../images/Зимний\ однодневный\ тур\ на\ остров\ Ольхон\ 2.png");
@@ -403,6 +402,7 @@
     border-radius: 6px;
     position: relative;
     grid-area: 4/1/5/2;
+    @include rMax(862px);
 }
 .offer-park-hotel-riviera {
     background-image: url("../images/Парк-отель\ «Байкальская\ Ривьера».png");
@@ -414,6 +414,7 @@
     border-radius: 6px;
     position: relative;
     grid-area: 4/2/5/3;
+    @include rMax(862px);
 }
 .offer-winter-fairytail {
     background-image: url("../images/Зимний\ тур\ «Чивыркуйская\ сказка».png");
@@ -425,6 +426,7 @@
     border-radius: 6px;
     position: relative;
     grid-area: 4/3/5/4;
+    @include rMax(862px);
 }
 .more {
     background-image: url("../images/Фотогалерея5.png");

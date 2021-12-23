@@ -120,6 +120,11 @@
   justify-content: space-between;
   padding-top: 30px;
 }
+@media all and (max-width: 736px) {
+  .footer-columns {
+    display: none;
+  }
+}
 .footer-columns p {
   font-size: 16px;
   color: #FFFFFF;
@@ -167,6 +172,11 @@
   opacity: 0.2;
   margin-top: 20px;
 }
+@media all and (max-width: 736px) {
+  .footer-line {
+    display: none;
+  }
+}
 
 .footer-under-line {
   display: flex;
@@ -188,6 +198,12 @@
   color: #FFFFFF;
   display: inline-block;
   padding-top: 13px;
+}
+
+@media all and (max-width: 736px) {
+  .footer-adres {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=footer_index.css.map */

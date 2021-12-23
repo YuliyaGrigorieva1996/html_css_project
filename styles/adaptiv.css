@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media all and (max-width: 1136px) {
+@media all and (max-width: 1250px) {
   .tours {
     grid-template: repeat(4, auto)/repeat(3, auto);
   }
@@ -113,13 +113,17 @@
     width: 180px;
   }
 }
-@media all and (max-width: 1072px) {
+@media all and (max-width: 1170px) {
   .tours {
     grid-template: repeat(6, auto)/repeat(2, auto);
   }
 
   .main {
     grid-template: repeat(4, auto)/repeat(2, auto);
+  }
+
+  .offers h2 {
+    text-align: center;
   }
 
   .offers-position {
@@ -236,14 +240,6 @@
   }
 }
 @media all and (max-width: 862px) {
-  .header-email {
-    display: none;
-  }
-
-  .header-phone {
-    display: none;
-  }
-
   .progress span {
     font-size: 44px;
   }
@@ -311,6 +307,12 @@
     grid-area: 8/3/9/5;
     width: 188px;
   }
+
+  .offers-position {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 @media all and (max-width: 736px) {
   .description h1 {
@@ -320,26 +322,10 @@
     font-size: 18px;
   }
 
-  .about-image {
-    display: none;
-  }
-
   .about-text {
     margin-left: 32px;
     margin-right: 32px;
     margin-top: 0px;
-  }
-
-  .footer-columns {
-    display: none;
-  }
-
-  .footer-line {
-    display: none;
-  }
-
-  .footer-adres {
-    display: none;
   }
 
   .progress {
@@ -348,36 +334,6 @@
   }
 }
 @media all and (max-width: 720px) {
-  .offers-position {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .offer-excursion-dacan {
-    display: none;
-  }
-
-  .offer-one-day {
-    display: none;
-  }
-
-  .offer-park-hotel-morin {
-    display: none;
-  }
-
-  .offer-summer-island {
-    display: none;
-  }
-
-  .offer-park-hotel-riviera {
-    display: none;
-  }
-
-  .offer-winter-fairytail {
-    display: none;
-  }
-
   .main {
     display: flex;
     flex-direction: column;
@@ -457,18 +413,10 @@
   }
 }
 @media all and (max-width: 562px) {
-  .menu {
-    display: none;
-  }
-
   .tours {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .phone {
-    display: none;
   }
 
   .header-menu {

@@ -76,9 +76,9 @@
     box-sizing: border-box;
     margin-left: calc(50% - 560px);
     margin-right: calc(50% - 560px);
-}
-.header-menu {
-    display: none;
+    button {
+        @include rMax(720px);
+    }
 }
 .header-line {
     background-color: $gray;
@@ -93,6 +93,7 @@
     height: 60px;
     gap: 2em;
     margin-top: 5px;
+    @include rMax(720px);
     a {
         @extend %font-menu-excursion;
     }
@@ -330,8 +331,6 @@
     .footer-order {
     display: none;
     }
-}
-@media all and (max-width: 720px) {
     .header-top{
         button {
             display: none;

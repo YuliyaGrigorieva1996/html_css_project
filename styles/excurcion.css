@@ -145,9 +145,10 @@
   margin-left: calc(50% - 560px);
   margin-right: calc(50% - 560px);
 }
-
-.header-menu {
-  display: none;
+@media all and (max-width: 720px) {
+  .header-top button {
+    display: none;
+  }
 }
 
 .header-line {
@@ -164,6 +165,11 @@
   height: 60px;
   gap: 2em;
   margin-top: 5px;
+}
+@media all and (max-width: 720px) {
+  .menu {
+    display: none;
+  }
 }
 .menu span:hover {
   cursor: pointer;
@@ -423,8 +429,7 @@
   .footer-order {
     display: none;
   }
-}
-@media all and (max-width: 720px) {
+
   .header-top button {
     display: none;
   }

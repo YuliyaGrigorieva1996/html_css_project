@@ -1,4 +1,9 @@
 @import '_classes-variable';
+@mixin rMax ($width) {
+    @media all and (max-width: $width) {
+        display: none;
+    }
+} 
 .form {
     background-color: #F5F5F7;
     h2 {
@@ -98,6 +103,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    @include rMax(736px);
     p {
         font-size: 16px;
         color: $white;
@@ -139,6 +145,7 @@
     color: $white;
     opacity: 0.2;
     margin-top: 20px;
+    @include rMax(736px);
 }
 .footer-under-line {
     display: flex;
@@ -160,4 +167,7 @@
         display: inline-block;
         padding-top: 13px;
     }
+}
+.footer-adres {
+    @include rMax(736px);
 }

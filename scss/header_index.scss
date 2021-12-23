@@ -59,8 +59,15 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.header-email {
+    @include rMax (862px);
+}
+.header-phone {
+    @include rMax (862px);
+}
 .phone {
     @extend %button;
+    @include rMax(562px);
 }
 .phone:hover {
     @extend %button-hover;
@@ -84,6 +91,7 @@
     justify-content: flex-start;
     gap: 2em;
     margin-top: 20px;
+    @include rMax(562px);
     span {
         @extend %fontnormal;
     }
