@@ -65,7 +65,7 @@
   }
 
   .header {
-    margin: 32px;
+    margin: 0 32px;
   }
 
   .description {
@@ -425,6 +425,7 @@
     height: 40px;
     background-image: url(../images/bars-solid-white.svg);
     background-repeat: no-repeat;
+    cursor: pointer;
   }
 }
 
